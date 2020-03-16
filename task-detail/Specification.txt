@@ -1,0 +1,11 @@
+
+Page specification
+==================
+1) Product Page: Load Products from the attached JSON
+2) Product Page: Display in Grid. Fields to be displayed in Grid - Product name, descriptionShort, amount, picture1, category
+3) Product Page: There will be a radio button on the First Column of the Grid, when User select the Radio Button, particular record should be highlighted with different color and adjacent component should load the Product details. 
+4) Product Page: User can go to next or previous product by next/previous button
+5) Product Page: User can add particular product in the cart by use of "Add button"
+6) Product Page: User can remove item from cart by use of "Remove from Cart". - This button should be enabled only if same product is already in cart.
+7) Product Page: Total amount must be reflected based on user's selections. 
+NOTE: Product List and product detail must be sepearate component

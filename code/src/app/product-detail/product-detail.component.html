@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="thumbnail">
+              <img src="{{prodData.picture1}}">
+              <div class="caption">
+                <h3>{{prodData.productName}}</h3>
+                <p class="card-description">{{prodData.descShort}}</p>
+                <p class="card-description">{{prodData.amount | currency:"₹"}}</p>
+                <p class="card-description">{{prodData.category}}</p>
+                <p class="card-description">{{prodData.makeYear}}</p>
+              </div>
+            </div>
+            <button (click)="addToCart(prodData)" [disabled]="isAvailableInCart">Add To Cart</button>
+            <button (click)="removeFromCart(prodData)">Remove From Cart</button>
+             | 
+             <button (click)="nextProduct(prodData.id)">Next</button>
+             <button (click)="previousProduct(prodData.id)">Previous</button>
+        </div>
+    </div>
+</div>
