@@ -1,9 +1,9 @@
 # angular-practice-task
 
-Clone this repo on your local machine
-Go into code folder
-cd code/
-Install node modules  
-npm install
-Run angular project 
+Clone this repo on your local machine <br/>
+Go into code folder <br/>
+cd code/ <br/>
+Install node modules  <br/>
+npm install<br/>
+Run angular project <br/>
 ng serve --open
