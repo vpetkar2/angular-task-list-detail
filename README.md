@@ -1,4 +1,4 @@
-# angular-practice-task
+# angular-task-list-detail
 
 Clone this repo on your local machine <br/>
 Go into code folder <br/>
